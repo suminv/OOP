@@ -18,9 +18,9 @@ class AppStore:
 
 
 class Application:
-    def __init__(self, name, blocked=True):
+    def __init__(self, name, blocked=False):
         self.name = name
-        self.blocked = False
+        self.blocked = blocked
 
 
 store = AppStore()
